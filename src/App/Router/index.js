@@ -21,7 +21,7 @@ const AppStackNavigator = createStackNavigator(
   {
     Home: {
       navigationOptions: ({ navigation }) => ({
-        title: "Loby",
+        title: "Lobby",
       }),
       screen: Home
     },

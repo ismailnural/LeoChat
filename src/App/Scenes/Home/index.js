@@ -1,15 +1,12 @@
 import React, { Fragment, Component } from "react";
 import {
-  SafeAreaView,
   View,
   Text,
   TouchableOpacity,
-  ImageBackground,
   TextInput,
   Alert
 } from "react-native";
 import AsyncStorage from '@react-native-community/async-storage';
-
 import HomeStyle from "./HomeStyle";
 
 export default class Home extends Component<{}> {
@@ -18,7 +15,7 @@ export default class Home extends Component<{}> {
     super(props);
 
     this.state = {
-      nickname: ''
+      nickname: '',
     };
 
   }
